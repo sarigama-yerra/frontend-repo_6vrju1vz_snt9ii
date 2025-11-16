@@ -1,36 +1,36 @@
 import React from 'react'
-import { BarChart3, Sparkles, Rocket, LineChart, MousePointerClick, Megaphone } from 'lucide-react'
+import { Sparkles, Workflow, LayoutDashboard, Megaphone, MousePointerClick, Zap, Bot, BarChart3 } from 'lucide-react'
 
 const services = [
   {
-    icon: <Sparkles className="h-6 w-6 text-indigo-600" />,
-    title: 'Brand & Creative',
-    desc: 'Visual identity, design systems, and UI libraries that scale across every channel.'
-  },
-  {
-    icon: <LineChart className="h-6 w-6 text-cyan-600" />,
-    title: 'Performance Marketing',
-    desc: 'Paid search, social, and programmatic campaigns optimized for ROAS and CAC.'
-  },
-  {
-    icon: <BarChart3 className="h-6 w-6 text-emerald-600" />,
-    title: 'Analytics & Data',
-    desc: 'Tracking, dashboards, and experimentation frameworks to measure what matters.'
-  },
-  {
-    icon: <MousePointerClick className="h-6 w-6 text-fuchsia-600" />,
-    title: 'CRO & UX',
-    desc: 'Rapid testing, user research, and funnel optimization to increase conversions.'
+    icon: <LayoutDashboard className="h-6 w-6 text-indigo-600" />,
+    title: 'Marketing Design',
+    desc: 'Brand systems, high-converting landing pages, and UI that turns attention into action.'
   },
   {
     icon: <Megaphone className="h-6 w-6 text-amber-600" />,
-    title: 'Content & SEO',
-    desc: 'AI-assisted content ops and technical SEO to grow organic demand.'
+    title: 'Performance Creative',
+    desc: 'Ad concepts, motion graphics, and content that’s built to test and scale across channels.'
   },
   {
-    icon: <Rocket className="h-6 w-6 text-rose-600" />,
-    title: 'Product Launch',
-    desc: 'Go-to-market strategy, landing pages, and lifecycle campaigns that scale.'
+    icon: <MousePointerClick className="h-6 w-6 text-fuchsia-600" />,
+    title: 'CRO & Experimentation',
+    desc: 'Research, A/B testing, and funnel optimization with clear hypotheses and results.'
+  },
+  {
+    icon: <BarChart3 className="h-6 w-6 text-emerald-600" />,
+    title: 'Analytics & Attribution',
+    desc: 'Tracking, dashboards, and models so you can see what’s working and double down.'
+  },
+  {
+    icon: <Bot className="h-6 w-6 text-cyan-600" />,
+    title: 'AI Automation',
+    desc: 'Lead triage, enrichment, and follow-ups with human-in-the-loop workflows that save hours.'
+  },
+  {
+    icon: <Zap className="h-6 w-6 text-rose-600" />,
+    title: 'Ops & Enablement',
+    desc: 'Playbooks, systems, and training to keep teams moving quickly with quality.'
   },
 ]
 
@@ -45,8 +45,8 @@ function Services() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Services</h2>
-          <p className="mt-4 text-gray-600">Full-funnel capabilities designed to ship fast and iterate even faster.</p>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Marketing Design & AI Automation</h2>
+          <p className="mt-4 text-gray-600">We blend creative, data, and automation to launch faster and learn continuously.</p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
